@@ -4,4 +4,4 @@
 first test git repo
  for the python
 
-## all test files are here
+## all tutorial files are here
