@@ -16,7 +16,7 @@ class Point:
     def __str__(self):
         # The point's string method. When you print an object,
         #  the __str__ method is called
-        return "A Point at coordinates " + str((self.x, self.y))
+        return ("A Point at coordinates " + str((self.x, self.y)))
 
     def move_point(self, delta_x, delta_y):
         # Moves this Point delta_x units in the x-direction
@@ -44,16 +44,16 @@ class Point:
 # Creating a Point object. What method is called?
 myPoint = Point(7, 4)
 # When we ask to print an object, its __str__ method is called
-print "After initializing the Point:", myPoint
+print ("After initializing the Point:", myPoint)
 
 # We want to permanently move the point, but this method
 #  does that incorrectly because it does not change the 
 #  object's attribute; it only alters a local variable
-print myPoint.move_point_incorrect(-1, 5)
-print "After moving the Point incorrectly:", myPoint
+print (myPoint.move_point_incorrect(-1, 5))
+print ("After moving the Point incorrectly:", myPoint)
 
 # Moving the point permanently works now because this method
 #  alters the object's attributes, which permanently changes
 #  them!
-print myPoint.move_point(-1, 5)
-print "After moving the Point correctly:", myPoint
+print (myPoint.move_point(-1, 5))
+print ("After moving the Point correctly:", myPoint)

@@ -12,12 +12,12 @@ letter_count = 0
 # Go through all the letters in a string
 for letter in hello_world: # Remember the colon!
     # Print out the position of each letter
-    print "Letter number", letter_count, "is", letter
+    print ("Letter number", letter_count, "is", letter)
     # And increment the counter
     letter_count = letter_count + 1 # Can also do letter_count += 1
 
 # Finally print how many letters were in the string
-print "There were", letter_count, "letters in the string", hello_world
+print ("There were", letter_count, "letters in the string", hello_world)
 
 
 # For loop examples using range:

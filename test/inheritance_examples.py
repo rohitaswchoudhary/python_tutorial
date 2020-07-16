@@ -14,7 +14,7 @@ class Computer:
         return self.os
 
 c = Computer("black", "lenovo")
-print c.which_os()
+print (c.which_os())
 
 class Apple(Computer):
     # This class inherits from Computer because it is a Computer -
@@ -32,14 +32,14 @@ class Apple(Computer):
 
 my_computer = Apple("silver")
 your_computer = Apple("white")
-print my_computer.compu_color # silver
-print your_computer.compu_color # white
-print my_computer.mnftr # Macintosh
-print your_computer.mnftr # Macintosh
+print( my_computer.compu_color) # silver
+print (your_computer.compu_color) # white
+print (my_computer.mnftr) # Macintosh
+print (your_computer.mnftr) # Macintosh
 
 my_computer.install_os("OS X")
-print my_computer.os # OS X
-print your_computer.os # ""
+print (my_computer.os) # OS X
+print (your_computer.os) # ""
 
 # The difference between inheritance (like the Apple class)
 #  and attributes

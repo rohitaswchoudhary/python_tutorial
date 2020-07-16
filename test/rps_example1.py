@@ -37,8 +37,8 @@ def rps(player1, player2):
         return "Invalid input - must be 'paper', 'rock', or 'scissors'"
 
 # Test
-print rps("scissors", "paper") # player 1 should win
-print rps("rock", "paper") # player 2 should win
-print rps("rock", "rock") # Tie game
-print rps("rock", "blurple") # Invalid input
+print (rps("scissors", "paper")) # player 1 should win
+print (rps("rock", "paper")) # player 2 should win
+print (rps("rock", "rock")) # Tie game
+print (rps("rock", "blurple")) # Invalid input
 

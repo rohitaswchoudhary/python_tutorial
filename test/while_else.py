@@ -25,10 +25,10 @@
 n = input('Enter a nonnegative number: ')
 
 while n >= 0:
-  print n
+  print (n)
   n -= 1
 else:
-  print "You've failed to enter a nonnegative number."
+  print ("You've failed to enter a nonnegative number.")
 ###
 
 # Let's check our cases. Say I inputted the number -1 for n. We would
@@ -52,10 +52,10 @@ else:
 n = input('Enter a nonnegative number: ')
 
 if n < 0:
-  print "You've failed to enter a nonnegative number."
+  print ("You've failed to enter a nonnegative number.")
 
 while n >= 0:
-  print n
+  print (n)
   n -= 1
 ###
 
