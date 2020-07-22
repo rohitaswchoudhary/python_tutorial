@@ -26,3 +26,24 @@ print(list12)
 list13=[8,5,2,3,6,9,7,4,5,6,8,9,1,2,56]
 list13.sort()
 print(list13)
+
+# indexing
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+
+# negative indexing
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1])
+
+# range of indexes
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+
+# change item value
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
