@@ -75,3 +75,6 @@ set2 = {1, 2, 3}
 
 set3 = set1.union(set2)
 print(set3)
+
+lists = list(set3)
+print(lists)

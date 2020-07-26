@@ -1,4 +1,5 @@
 import mymodules
+import iterators
 
 # built in modules
 import platform
@@ -9,6 +10,9 @@ a= mymodules.person1["age"]
 print(a)
 
 print(mymodules.person1)
+print()
+print(mymodules.person2)
+print()
 
 x = platform.system()
 print(x)
@@ -20,3 +24,6 @@ print()
 x= dir(platform)
 print(x)
 
+print()
+
+print(iterators.mytuple)

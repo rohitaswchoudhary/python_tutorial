@@ -1,3 +1,7 @@
+# tuples cannot be edited
+# stable structured data types
+# it is similar to lists with some constrains
+
 t = (1,2,3,4,5)
 print(t[2])
 

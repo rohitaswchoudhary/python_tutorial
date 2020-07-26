@@ -1,5 +1,4 @@
-# Sarina Canelake
-# lecture3.py
+
 
 base = 10
 exp = 4
