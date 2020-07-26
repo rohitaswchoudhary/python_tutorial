@@ -38,7 +38,7 @@ finally:
   print("The 'try except' is finished")
 
 try:
-  f = open("demofile.txt",'x')
+  f = open("demofile.txt",'a')
   f.write("Lorum Ipsum\n")
   f.write("rohitasw choudhary")
 except NameError:
