@@ -1,4 +1,3 @@
-# 6.189 Lecture 6
 # point.py
 
 class Point:
