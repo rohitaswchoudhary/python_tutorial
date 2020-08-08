@@ -47,3 +47,33 @@ print(thislist[2:5])
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
+
+
+
+# zipped lists
+
+l1 = [1,2,3,4,5]
+l2 = ["one","two","three","four","five"]
+
+zipped = list(zip(l1,l2))
+print(zipped)
+
+unzipped = list(zip(*zipped))
+print(unzipped)
+
+items = ["apple","banana","oranges"]
+counts = [4,10,12]
+prices = [20,30,100]
+
+sentences = []
+for (item,count,price) in zip(items,counts,prices):
+    item,count,price = str(item),str(count),str(price)
+    sentence = "I brought "+count+ " "+item+ " at ₹"+price +" each."
+    sentences.append(sentence)
+
+print(sentences)
+
+
+
+
+
