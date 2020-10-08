@@ -1,34 +1,72 @@
+# An awesome design by Georgia, age 13, who lives in the UK.
 import turtle
+import math
 import random
-
-def main():
-    tList = []
-    head = 0
-    numTurtles = 10
-    for i in range(numTurtles):
-        nt = turtle.Turtle()   # Make a new turtle, initialize values
-        nt.setheading(head)
-        nt.pensize(2)
-        nt.color(random.randrange(256),random.randrange(256),random.randrange(256))
-        nt.speed(10)
-        nt.tracer(30,0)
-        tList.append(nt)       # Add the new turtle to the list
-        head = head + 360/numTurtles
-
-    for i in range(100):
-        moveTurtles(tList,15,i)
-
-    w = tList[0]
-    w.up()
-    w.goto(-130,40)
-    w.write("How to Think Like a ",True,"center","30px Arial")
-    w.goto(-130,-35)
-    w.write("Computer Scientist",True,"center","30px Arial")
-
-def moveTurtles(turtleList,dist,angle):
-    for turtle in turtleList:   # Make every turtle on the list do the same actions.
-        turtle.forward(dist)
-        turtle.right(angle)
-
-main()
-turtle.done()
+wn = turtle.Screen()
+wn.bgcolor('black')
+Albert = turtle.Turtle()
+Albert.speed(0)
+Albert.color('white')
+rotate=int(360)
+def drawCircles(t,size):
+    for i in range(10):
+        t.circle(size)
+        size=size-4
+def drawSpecial(t,size,repeat):
+  for i in range (repeat):
+    drawCircles(t,size)
+    t.right(360/repeat)
+drawSpecial(Albert,100,10)
+Steve = turtle.Turtle()
+Steve.speed(0)
+Steve.color('yellow')
+rotate=int(90)
+def drawCircles(t,size):
+    for i in range(4):
+        t.circle(size)
+        size=size-10
+def drawSpecial(t,size,repeat):
+    for i in range (repeat):
+        drawCircles(t,size)
+        t.right(360/repeat)
+drawSpecial(Steve,100,10)
+Barry = turtle.Turtle()
+Barry.speed(0)
+Barry.color('blue')
+rotate=int(80)
+def drawCircles(t,size):
+    for i in range(4):
+        t.circle(size)
+        size=size-5
+def drawSpecial(t,size,repeat):
+    for i in range (repeat):
+        drawCircles(t,size)
+        t.right(360/repeat)
+drawSpecial(Barry,100,10)
+Terry = turtle.Turtle()
+Terry.speed(0)
+Terry.color('orange')
+rotate=int(90)
+def drawCircles(t,size):
+    for i in range(4):
+        t.circle(size)
+        size=size-19
+def drawSpecial(t,size,repeat):
+    for i in range (repeat):
+        drawCircles(t,size)
+        t.right(360/repeat)
+drawSpecial(Terry,100,10)
+Will = turtle.Turtle()
+Will.speed(0)
+Will.color('pink')
+rotate=int(90)
+def drawCircles(t,size):
+    for i in range(4):
+        t.circle(size)
+        size=size-20
+def drawSpecial(t,size,repeat):
+    for i in range (repeat):
+        drawCircles(t,size)
+        t.right(360/repeat)
+drawSpecial(Will,100,10)
+wn.exitonclick()
