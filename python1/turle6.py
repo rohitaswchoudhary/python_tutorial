@@ -58,7 +58,7 @@ def drawSpecial(t,size,repeat):
 drawSpecial(Terry,100,10)
 Will = turtle.Turtle()
 Will.speed(0)
-Will.color('pink')
+Will.color('green')
 rotate=int(90)
 def drawCircles(t,size):
     for i in range(4):

@@ -3,6 +3,7 @@ import turtle
 ninja = turtle.Turtle()
 
 ninja.speed(255)
+ninja.shape("turtle")
 
 
 for i in range(180):
