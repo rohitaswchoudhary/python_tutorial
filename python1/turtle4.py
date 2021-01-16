@@ -13,7 +13,7 @@ painter.penup()
 painter.forward(200)
 painter.pendown()
 
-painter.pensize(1)
+painter.pensize(3)
 painter.pencolor("red")
 for i in range(200):
     painter.forward(200)
