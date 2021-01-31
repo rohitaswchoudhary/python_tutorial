@@ -36,16 +36,16 @@ def RecCountdown(n):
     if n == 0:
         return 0
     elif n < 0:
-        print n
+        print (n)
         return RecCountdown(n + 1)
     else:
-        print n
+        print (n)
         return RecCountdown(n - 1)
 
 # Tests
-print RecCountdown(5)
-print RecCountdown(0)
-print RecCountdown(-2)
+# print (RecCountdown(5))
+print (RecCountdown(0))
+# print (RecCountdown(-2))
 
 
 # 4.
@@ -54,15 +54,15 @@ def RecCountup(n, j):
     if j == n:
         return n
     elif n < 0:
-        print j
+        print (j)
         return RecCountup(n, j - 1)
     else:
-        print j
+        print (j)
         return RecCountup(n, j + 1)
 # Tests
-print RecCountup(5, 0)
-print RecCountup(0, 0)
-print RecCountup(-2, 0)
+print (RecCountup(5, 0))
+print (RecCountup(0, 0))
+print (RecCountup(-2, 0))
 
 
 # 5.
