@@ -15,7 +15,7 @@ def is_a_vowel(c):
 
 
 ## Testing
-print is_a_vowel("u")
+print (is_a_vowel("u"))
 print is_a_vowel("E")
 print is_a_vowel("x")
 

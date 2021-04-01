@@ -10,3 +10,6 @@ print(calendar.calendar(2020))
 print(calendar.mdays)
 
 print(calendar.monthcalendar(1900,1))
+print(calendar.isleap(1996))
+
+
