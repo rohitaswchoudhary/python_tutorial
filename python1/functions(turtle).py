@@ -2,8 +2,6 @@ import turtle
 
 rohit= turtle.Turtle()
 
-
-
 def square():
     rohit.forward(50)
     rohit.right(90) 
@@ -25,7 +23,3 @@ rohit.right(120)
 rohit.forward(50)
 
 turtle.done()
-
-
-
-

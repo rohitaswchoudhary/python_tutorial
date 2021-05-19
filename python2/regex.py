@@ -6,7 +6,7 @@ pattern= re.compile("A random string.")
 result= pattern.search(text)
 print(result)
 
-text2= "random string. rohitaswchoudhary@gmail.com. some more random text."
+text2= "random string. nirmai003krm@gmail.com. some more random text.my name is rohitasw choudhary. cgh,jk.hlegdbj/o cl.aeb.kgdv/ich.kj,ā"
 pattern= re.compile("[a-z0-9]+@[a-z0-9]+\.[a-z]+")
 result= pattern.search(text2)
 print(result)

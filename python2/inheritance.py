@@ -5,6 +5,8 @@
 
 # Child class is the class that inherits from another class, also called derived class.
 
+from python1 import inheritance
+
 class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
@@ -15,7 +17,7 @@ class Person:
 
 #Use the Person class to create an object, and then execute the printname method:
 
-x = Person("John", "Doe")
+x = Person("Rohit", "Choudhary")
 x.printname()
 print()
 
@@ -26,7 +28,7 @@ print()
 class Student(Person):
   pass
 
-x = Student("Mike", "Olsen")
+x = Student("Rohitasw", "Choudhary")
 x.printname()
 print()
 
@@ -39,7 +41,7 @@ print()
 # the child class will no longer inherit the parent's __init__() function.
 # To keep the inheritance of the parent's __init__() function, 
 # add a call to the parent's __init__() function:
-class Person:
+class Person1:
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
@@ -47,11 +49,11 @@ class Person:
   def printname(self):
     print(self.firstname, self.lastname)
 
-class Student(Person):
+class Student1(Person1):
   def __init__(self, fname, lname):
     Person.__init__(self, fname, lname)
 
-x = Student("Mike", "Olsen")
+x = Student1("Rohit", "Choudhary")
 x.printname()
 print()
 # now we are ready to add functionality to the _init_ function of child class
@@ -64,7 +66,7 @@ print()
 
 
 
-class Person:
+class person2:
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
@@ -72,18 +74,18 @@ class Person:
   def printname(self):
     print(self.firstname, self.lastname)
 
-class Student(Person):
+class Student2(person2):
   def __init__(self, fname, lname):
     super().__init__(fname, lname)
 
-x = Student("Mike", "Olsen")
+x = Student("Rohit", "Choudhary")
 x.printname()
 print("/////////////////////////////////////////////////////////////")
 
 # add properties
 # add property called graduation year, roll no to child class
 
-class Person:
+class Person3:
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
@@ -92,7 +94,7 @@ class Person:
     print(self.firstname, self.lastname)
 
 
-class Student(Person):
+class Student3(Person3):
     def __init__(self, fname, lname, rollno, year):
         super().__init__(fname, lname)
         self.roll_no = rollno
@@ -111,6 +113,6 @@ n2 = input("enter your last name: ")
 roll = input("enter your roll no: ")
 g= input("enter your graduation year: ")
 
-x = Student(n1,n2,roll,g)
+x = Student3(n1,n2,roll,g)
 x.details()
 x.welcome()

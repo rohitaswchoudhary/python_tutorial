@@ -1,7 +1,5 @@
 # An awesome design by Georgia, age 13, who lives in the UK.
 import turtle
-import math
-import random
 wn = turtle.Screen()
 wn.bgcolor('black')
 Albert = turtle.Turtle()

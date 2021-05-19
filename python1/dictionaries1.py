@@ -1,14 +1,13 @@
-contacts={'rohit':{'phone':'7091741989','email':'rohitaswchoudhary@gmail.com'},
-'mom':{'phone':'8051156856','email':'archanachoudharyjsr@gmail.com'},
-'bigb':{'phone':'9771416543','email':'jagritijani998@gmail.com'}
+contacts={'rohit':{'phone':'123456789','email':'abchefghijklmnopq@gmail.com'},
+'mom':{'phone':'987654321','email':'zxygflagjgajg@gmail.com'},
+'bigb':{'phone':'123456789','email':'gjfhlhaufgiufg@gmail.com'}
 }
- 
 
 print(contacts.get('rohit'))
 print(contacts.get('bigb'))
 print(contacts.get('mom'))
 
-contacts['rohitasw']={'phone':'9123275996','email':'rohitaswchoudhary@hotmail.com'}
+contacts['rohitasw']={'phone':'9123275996','email':'jgbkhgiukh@hotmail.com'}
 print(contacts)
 
 
