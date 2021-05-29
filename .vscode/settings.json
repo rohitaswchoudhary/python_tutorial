@@ -1,6 +1,0 @@
-{
-    "python.autoComplete.addBrackets": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.analysis.completeFunctionParens": true
-}

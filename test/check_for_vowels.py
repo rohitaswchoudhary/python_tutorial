@@ -16,8 +16,8 @@ def is_a_vowel(c):
 
 ## Testing
 print (is_a_vowel("u"))
-print is_a_vowel("E")
-print is_a_vowel("x")
+print (is_a_vowel("E"))
+print (is_a_vowel("x"))
 
 def only_vowels(phrase):
     # Takes a phrase, and returns a string of all the vowels
@@ -32,10 +32,10 @@ def only_vowels(phrase):
 
     return vowel_string
     # Code after a "return" doesn't print
-    print "A line of code after the return!"
+    print ("A line of code after the return!")
 
 # Testing the functions
-print "The vowels in the phrase 'tim the beAver' are:", only_vowels("tim the beAver")
-print only_vowels("HeLlO wOrLd!!")
-print only_vowels("klxn") # Expect no vowels from this one!
+print ("The vowels in the phrase 'tim the beAver' are:", only_vowels("tim the beAver"))
+print (only_vowels("HeLlO wOrLd!!"))
+print (only_vowels("klxn")) # Expect no vowels from this one!
     
