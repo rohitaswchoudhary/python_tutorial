@@ -21,3 +21,4 @@ def fact(n):
     else:
         # Recursive case: n! = n*(n-1)!
         return n * fact(n-1)
+
