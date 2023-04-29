@@ -1,4 +1,4 @@
-# 6.189 Lecture 3
+
 # check_for_vowels.py
 
 def is_a_vowel(c):
